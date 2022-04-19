@@ -18,6 +18,7 @@ ds = pd.DataFrame({'name': name, 'age': age})
 
 # print(df.head())
 print(ds)
+print('test github')
 
 ## Change to font 'Tomaho' for 'thai'
 # print(plt.rcParams)
@@ -26,3 +27,4 @@ print(ds)
 plt.rcParams['font.family'] = 'Tomaho'
 plt.bar(x=name, height=age,data=ds)
 plt.show()
+
